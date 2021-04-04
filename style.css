@@ -1,0 +1,51 @@
+.head{
+  background-color:rgb(22, 22, 22);
+  color:rgb(169, 169, 169);
+  border:solid;
+  font-family: sans-serif;
+   }
+
+body {
+  font-family: sans-serif;
+}
+
+.menu{
+  margin-left: 50px;
+}
+
+
+.grid {
+  
+  display: flex;
+  display : flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.item{
+  margin : 20px;
+  margin-top: 50px;
+  width: 250px;
+  height: 360px;
+  padding: 30px;
+  background-color: white;
+  opacity:1;
+}
+
+.item:hover{
+  opacity: 0.5;
+  transform: scale(1.2);
+}
+
+.grid img{
+  border: 2px black;
+  border-radius: 50px;
+}
+
+a:link{
+  color:white;
+}
+a:visited{
+  color:white;
+}
